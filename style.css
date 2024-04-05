@@ -1,0 +1,257 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 1rem;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .btn1 {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 4rem 0;
+  }
+  
+  /* Features section */
+
+.feature {
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: left;
+  margin-top: 2rem;
+}
+
+.feature {
+  max-width: 300px;
+  margin: 0 1rem;
+}
+
+.feature img {
+  width: 200%;
+  height: auto;
+  max-height: 500px
+}
+
+.feature h3 {
+  margin: 1rem 0;
+}
+  .feature {
+    margin-bottom: 2rem;
+  }
+
+/* About section */
+
+.about {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  padding: 4rem 1rem;
+  text-align: left;
+}
+
+.about p {
+  margin-bottom: 2rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.team ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team li {
+  margin: 1rem;
+  text-align: center;
+}
+
+.team img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.team h4 {
+  margin-bottom: 0.5rem;
+}
+
+.team a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.team a:hover {
+  color: #666;
+}
+  
+.story {
+  padding: 4rem 1rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Add this CSS to your existing style.css file or create a new CSS file and link it */
+
+#video {
+  background-color: white;
+  padding: 50px 0;
+  text-align: left;
+}
+
+#video p {
+  margin-bottom: 50px;
+}
+
+video {
+  max-width: 80%;
+  height: auto;
+}
+
+#video1 {
+  background-color: white;
+  padding: 50px 0;
+  text-align: right;
+  margin-top: auto;
+}
+
+#video1 p {
+  margin-bottom: 50px;
+  text-align: center;
+  margin-left: 50%;
+  
+}
+video1 {
+  max-width: 70%;
+  height: auto;
+  margin-right: 50%;
+}
+
+.demo img {
+  width: 130%;
+  height: 50%;
+  max-height: 500px
+}
+
+/* Add this CSS to your existing style.css file or create a new CSS file and link it */
+
+#deployed-app {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  text-align: right;
+}
+
+#deployed-app h2 {
+  margin-bottom: 20px;
+  color: #333; /* Change the color as needed */
+  text-align: right;
+}
+
+#deployed-app p {
+  margin-bottom: 30px;
+  font-size: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Primary button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Button color on hover */
+}
+
+/* Add this CSS to your existing style.css file or create a new CSS file and link it */
+
+#project-description {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#project-description p {
+  margin: 0;
+  font-size: 24px;
+  color: #333; /* Adjust the color as needed */
+}
+
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+  }
+  
+  footer {
+    background-color:#555;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
